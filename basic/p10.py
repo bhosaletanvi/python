@@ -1,0 +1,10 @@
+a=10
+print(type(a))
+b=8.9
+print(type(b))
+c="tranvi"
+print(type(c))
+d='A'
+print(type(d))
+e=True
+print(type(e))
