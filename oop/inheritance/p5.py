@@ -8,11 +8,11 @@ class person:
 		self.add=add;
 		self.age=age;
 
-def student(person):
+class student(person):
 	roll_no =0;
 	marks=0;
 
-	def__init__(self,marks,roll_no,name,add,age):
+	def __init__(self,marks,roll_no,name,add,age):
 		super().__init__(name,add,age);
 		self.marks=marks;
 		self.roll_no=roll_no;
@@ -20,3 +20,7 @@ def student(person):
 
 s1= student(69,3,"abc","satara",21);
 print(s1.name)
+print(s1.add)
+print(s1.age)
+print(s1.marks)
+print(s1.roll_no)
