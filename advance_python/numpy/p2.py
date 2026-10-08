@@ -1,0 +1,28 @@
+import numpy as np
+# arr=np.arange(1,7)
+# print(arr)
+# arr1=np.arange(1,10,2)
+# print(arr1)
+
+# zero_arr=np.zeros(6)
+# print(zero_arr)
+
+# one_arr=np.ones(6)
+# print(one_arr)
+
+arr=np.array([1,2,3,4])
+print(arr[2])
+print(arr[-3]) 
+print(arr[1:3])
+print(arr[2:])
+print(arr>3)
+print(arr[arr>3])
+print(arr)
+print(end="\n")
+twoDarr=np.array([[1,2,3],[4,5,6]])
+print(twoDarr)
+print(twoDarr[1,2])
+print(np.sum(twoDarr))
+print(twoDarr.ndim)
+print(twoDarr.shape)
+print(twoDarr.size)
